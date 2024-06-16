@@ -8,19 +8,20 @@
 }
 section{
   display: flex;
-  height: 70vh;
   flex-direction: column;
- 
   background-color: #1f2937;
 }
 .header{
   display: flex;
   justify-content: space-between;
-  padding: 20px 10%;
+  align-items: center;
+  padding: 16px 100px;
+ 
 }
 .logo{
   font-size: 24px;
   color: #f9f8f9;
+  
 }
 .nav ul{
   display: flex;
@@ -30,18 +31,20 @@ section{
 .container{
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding:100px;
+
+}
+.left{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  width:100%;
-  flex-grow: 1;
-  gap: 100px;
-}
-.left h1, p,.right {
+  gap:10px;
   width: 400px;
-  margin-bottom: 10px;
 }
-.left h1{
-font-size: 48px;
-color: #f9f8f9;
+  .left h1{
+  font-size: 48px;
+  color: #f9f8f9;
 
 }
 .left p{
@@ -71,4 +74,50 @@ transform: scale(1.1);
   height: 250px;
   object-fit: cover;
   object-position:center;
+}
+
+/* ----------------Second section---------------------------- */
+.container-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 20px;
+
+ 
+}
+.card{
+  width: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+ 
+}
+.card-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  border: 2px solid #3882f6;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  
+}
+.card-img img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+.card-img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem rgba(0, 0, 0,  0.5);
+
 }
