@@ -129,5 +129,80 @@ section{
 .card-img:hover{
   transform: scale(1.1);
   box-shadow: 0 0 1rem rgba(0, 0, 0,  0.5);
-
 }
+/* ----------------Third section-------- */
+
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-color: #e5e7eb;
+}
+.quote-item{
+  width: 780px;
+  color: #1f2937;
+}
+.quotes{
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+}
+.author{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 50px;
+}
+/* ----------------Fourth section------ */
+
+.wrapper-container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 100px;
+}
+.wrapper-container-items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  padding: 30px 80px 30px 80px;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+.action{
+  font-weight: 700;
+  font-size: 20px;
+}
+.sign{
+  font-size: 14px;
+}
+.btn{
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: #e5e7eb 2px solid;
+  font-size: 14px;
+  padding: 8px 14px 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.btn:hover{
+  background-color: #e5e7eb;
+  color: #3882f6;
+}
+/* ----------------Footer------  */
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 25px;
+}
+
